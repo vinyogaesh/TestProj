@@ -3,4 +3,31 @@
 
 <project name="Retailers-portlet" basedir="." default="deploy">
 	<import file="../build-common-portlet.xml" />
+<target name="deploy-jenkins" >
+
+ <delete dir="tempDist" />
+
+ <antfetch target="clean" inheritall="false" return="sdk.dir"/>
+ <antfetch target="war" inheritall="true" return="plugin.file"/>
+
+ <mkdir dir="tempDist"/>
+
+ <copy file="${plugin.file}" todir="tempDist"/>
+
+ <script language="javascript">
+ <![CDATA[
+ revision = project.getProperty("SVN_REVISION");
+ buildnumber = project.getProperty("plugin.file");
+ warName = buildnumber.substring(buildnumber.lastIndexOf("/") + 1);
+ project.setProperty("warName",warName);
+ tempName = warName.substring(0, warName.lastIndexOf(".") - 1);
+ newName = tempName.substring(0, tempName.lastIndexOf(".")) + '.' + revision + '.war' ;
+ project.setProperty("newName",newName);
+ ]]>
+ </script>
+
+ <echo message="WAR FILE NAME WITH REVISION IS ${newName}"></echo>
+ <move file="tempDist/${warName}" tofile="tempDist/${newName}"/>
+ <copy file="tempDist/${newName}" todir="${sdk.dir}/dist/"/>
+ </target>
 </project>
