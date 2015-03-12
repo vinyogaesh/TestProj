@@ -1,0 +1,133 @@
+/*-- My Custom Styles --*/
+h4 {
+  color: #EA700D;
+  font-size: 16pt;
+  margin-bottom: 20px; }
+
+.breadcrumbs {
+  font-size: 12px;
+  color: gray; }
+
+.tabHeading {
+  color: gray;
+  font-size: 1em;
+  font-weight: bold;
+  margin-right: 10px;
+  padding: 5px; }
+
+.tabPurchaseOrder {
+  background-color: #C5D0C3;
+  margin-bottom: 0px;
+  margin-top: 0px; }
+
+.nav {
+  list-style: none outside none;
+  margin-bottom: 20px;
+  margin-left: 0px; }
+
+.nav-tabs {
+  border-bottom: 0px;
+  padding-top: 15px; }
+
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover {
+  background-color: #FFFFFF;
+  border-radius: 5px 5px 0px 0px;
+  border-style: none;
+  border-width: 0px;
+  color: #555555;
+  cursor: pointer;
+  font-weight: bold; }
+
+.nav-tabs > li > a:hover {
+  border-radius: 5px 5px 0px 0px;
+  background-color: #FFFFFF; }
+
+.selectProduct {
+  width: 260px; }
+
+.left-align {
+  float: left; }
+
+.right-align {
+  float: right; }
+
+.table td.leftAlign, .table th.leftAlign {
+  text-align: left; }
+
+.table td.rightAlign, .table th.rightAlign {
+  text-align: right; }
+
+.table td.centerAlign, .table th.centerAlign {
+  text-align: center; }
+
+/*--- purchaseOrder jsp ---*/
+.dropdownCommand {
+  left: -50px;
+  width: 200px; }
+
+.commandBox {
+  border: 0px dotted gray;
+  margin-left: 25px;
+  width: 100%;
+  clear: both; }
+
+.commandChildBox {
+  margin-left: 15px;
+  margin-right: 15px;
+  float: left; }
+
+.commandTitle {
+  color: gray;
+  font-size: 10pt;
+  font-weight: bold; }
+
+.commandText {
+  color: #EA700D;
+  font-size: 9pt;
+  margin-right: 5px; }
+
+.itemTable {
+  background-color: #EEEEEE;
+  border-color: #999999;
+  margin-top: 10px; }
+
+.itemTable th, .itemTable td {
+  border: 1px solid #AAA; }
+
+.itemRowHeader {
+  background-color: #DDDDDD; }
+
+.itemRowFooter {
+  background-color: #DDDDDD; }
+
+.footerText {
+  font-size: 13px;
+  font-weight: bold; }
+
+.footerTotalAmount {
+  font-size: 18px; }
+
+/*overwritten*/
+input[type="checkbox"] {
+  margin: 0px; }
+
+.container {
+  width: 100%;
+  float: left;
+  padding: 0 0 10px 0; }
+
+.search-box {
+  border-color: #CCCCCC !important;
+  border-radius: 4px 4px 4px 4px !important;
+  color: #000000 !important;
+  display: inline-block !important;
+  font-size: 14px !important;
+  height: 20px !important;
+  line-height: 20px !important;
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+  padding: 4px 6px !important;
+  vertical-align: middle !important;
+  width: 410px !important;
+  font-family: Arial, Helvetica !important; }
+

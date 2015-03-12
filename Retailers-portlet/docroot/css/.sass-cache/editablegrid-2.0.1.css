@@ -1,0 +1,67 @@
+/*
+ * editablegrid-2.0.1.css
+ * 
+ * This file is part of EditableGrid.
+ * http://editablegrid.net
+ *
+ * Copyright (c) 2011 Webismymind SPRL
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://editablegrid.net/license
+ */
+td.number {
+  text-align: right;
+  padding-right: 5px;
+  white-space: nowrap; }
+
+td.boolean {
+  text-align: center; }
+
+th.boolean {
+  text-align: center; }
+
+td.boolean input {
+  background: url(../img/icon-delete.png) no-repeat;
+  width: 20px;
+  height: 20px;
+  border: 0px;
+  cursor: pointer; }
+
+td.boolean input:hover {
+  background: url("../img/icon-delete.png") no-repeat scroll 0 0 transparent;
+  border: 0 none;
+  cursor: pointer;
+  height: 20px;
+  width: 20px; }
+
+td.boolean input:focus {
+  background: url("../img/icon-delete.png") no-repeat scroll 0 0 transparent;
+  border: 0 none;
+  cursor: pointer;
+  height: 20px;
+  width: 20px; }
+
+.last input {
+  background: url(img/icon-search.png) no-repeat;
+  width: 20px;
+  height: 20px;
+  border: 0px;
+  cursor: pointer; }
+
+table.testgrid {
+  border-collapse: collapse;
+  border: 1px solid #CCB;
+  width: 100%; }
+
+table.testgrid td, table.testgrid th {
+  padding: 5px;
+  border: 1px solid #E0E0E0;
+  font-size: 13px; }
+
+table.testgrid th {
+  background: #E5E5E5;
+  text-align: left; }
+
+input.invalid {
+  background: red;
+  color: #FDFDFD; }
+

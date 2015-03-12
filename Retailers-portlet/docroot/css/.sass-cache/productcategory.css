@@ -1,0 +1,179 @@
+.ui-autocomplete {
+  height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden; }
+
+.normal-icon {
+  background-image: url("../img/normal.png"); }
+
+.input-append [class*="span"] {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold; }
+
+.crdRplSpan {
+  font-size: 13pt;
+  font-weight: bold;
+  color: #AAAAAA; }
+
+.right-border {
+  border-right: 2px solid #CCCCCC;
+  height: 36px; }
+
+.header-div-style {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 20em;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 20px; }
+
+.retailer-header-color {
+  color: #434343; }
+
+.horizontal-separator {
+  border: 1px solid #DDDDDD;
+  height: 150px;
+  margin-top: 10px; }
+
+.horizontal-space {
+  margin: 10px 40px 20px 10px;
+  width: 110px; }
+
+.credit-status {
+  color: #9DA0A4; }
+
+.bill-outstanding-text {
+  margin-top: 0px;
+  color: #9DA0A4; }
+
+.bill-outstanding-value {
+  color: #434343;
+  font-weight: bold; }
+
+.main-td-body {
+  /* 	border: 1px solid #dedede;  */
+  padding: 10px; }
+
+.td-body {
+  background-color: #FFDDBA;
+  font-size: 10pt;
+  font-weight: bold;
+  /* color: #262626; */
+  color: #a65400;
+  height: 35px;
+  /* padding-bottom: 10px; */ }
+
+.tr-body-bak {
+  background-color: #FAFAFA;
+  font-size: 9pt;
+  font-weight: normal;
+  color: #999999; }
+
+.td-l-width {
+  width: 120px;
+  /* 	height: 38px; */ }
+
+.td-l-width1 {
+  width: 70px;
+  /* 	height: 38px; */ }
+
+.t-tr-col {
+  background-color: #FFDDBA;
+  font-size: 11pt;
+  font-weight: bold;
+  color: #a65400; }
+
+.table-but {
+  max-width: 100%;
+  background-color: transparent;
+  border: 0px; }
+
+.table-tr-backg {
+  font-size: 15px;
+  background-color: #f8bc7e;
+  margin-left: 10px;
+  line-height: 30px; }
+
+.table-th-col {
+  color: #ffffff;
+  margin-left: 10px; }
+
+.btn-col {
+  height: 30px;
+  width: 65px;
+  color: #ffffff;
+  background-color: #5bb75b;
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+.table-td-cll {
+  padding-right: 40px;
+  border-bottom: 1px solid #B7B1B1;
+  padding-left: 8px; }
+
+.td-border-1 {
+  border-left: 1px solid #f8bc7e;
+  border-right: 1px solid #f8bc7e; }
+
+.table-inside {
+  border: 1px solid #B3B3B3;
+  background: #FFC;
+  color: #000000;
+  margin-top: 8px;
+  margin-bottom: 20px; }
+
+.highlight {
+  background-color: #FFF7AC; }
+
+.table-inside1 {
+  border: 1px solid #B3B3B3;
+  color: #cOcOcO;
+  margin-top: 8px;
+  margin-bottom: 20px; }
+
+.nonhighlight {
+  background-color: #E6E6E6; }
+
+.div-pop-wi1 {
+  width: 100px; }
+
+.div-pop-wi2 {
+  width: 120px; }
+
+input[type=radio].css-checkbox {
+  display: none; }
+
+input[type=radio].css-checkbox + label.css-label {
+  padding-left: 20px;
+  height: 15px;
+  display: inline-block;
+  line-height: 15px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  font-size: 15px;
+  vertical-align: middle;
+  cursor: pointer; }
+
+input[type=radio].css-checkbox:checked + label.css-label {
+  background-position: 0 -15px; }
+
+label.css-label {
+  background-image: url("../img/csscheckbox_ae130a5728a96b7e16f10bda419aad3c.png");
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.sorting_1 {
+  /* padding-right: 30px; */
+  border-bottom: 1px solid #B7B1B1;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 2px; }
+

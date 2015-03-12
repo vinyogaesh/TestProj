@@ -1,0 +1,410 @@
+[
+    {
+        "value": "TABLET'STRIP",
+        "label": "TABLET"
+    },
+    {
+        "value": "CAPSULE'STRIP",
+        "label": "CAPSULE"
+    },
+    {
+        "value": "DOSE'PACK",
+        "label": "DOSE"
+    },
+    {
+        "value": "LOZENGES'STRIP",
+        "label": "LOZENGES"
+    },
+    {
+        "value": "PESSARY'PACK",
+        "label": "PESSARY"
+    },
+    {
+        "value": "ROTACAPS'PACK",
+        "label": "ROTACAPS"
+    },
+    {
+        "value": "ROTACAP'PACK",
+        "label": "ROTACAP"
+    },
+    {
+        "value": "SUPPOSITORY'PACK",
+        "label": "SUPPOSITORY"
+    },
+    {
+        "value": "SACHET'PACK",
+        "label": "SACHET"
+    },
+    {
+        "value": "APLICAPS'STRIP",
+        "label": "APLICAPS"
+    },
+    {
+        "value": "PEN'PACK",
+        "label": "PEN"
+    },
+    {
+        "value": "VIAL'PACK",
+        "label": "VIAL"
+    },
+    {
+        "value": "PATCH'PACK",
+        "label": "PATCH"
+    },
+    {
+        "value": "PIECE'PACK",
+        "label": "PIECE"
+    },
+    {
+        "value": "CATHETER'PACK",
+        "label": "CATHETER"
+    },
+    {
+        "value": "POWDER'PACK",
+        "label": "POWDER"
+    },
+    {
+        "value": "SURGICARE'PACK",
+        "label": "SURGICARE"
+    },
+    {
+        "value": "INJ'PACK",
+        "label": "INJ"
+    },
+    {
+        "value": "FORTE_CAP'STRIP",
+        "label": "FORTE_CAP"
+    },
+    {
+        "value": "CAP'STRIP",
+        "label": "CAP"
+    },
+    {
+        "value": "TAB'STRIP",
+        "label": "TAB"
+    },
+    {
+        "value": "RESPULES'PACK",
+        "label": "RESPULES"
+    },
+    {
+        "value": "CREAM'PACK",
+        "label": "CREAM"
+    },
+    {
+        "value": "SURGICAL'PACK",
+        "label": "SURGICAL"
+    },
+    {
+        "value": "SOAP_BAR'PACK",
+        "label": "SOAP_BAR"
+    },
+    {
+        "value": "MISC'STRIP/PACK",
+        "label": "MISC"
+    },
+    {
+        "value": "SYR'PACK",
+        "label": "SYR"
+    },
+    {
+        "value": "NEEDLE'PACK",
+        "label": "NEEDLE"
+    },
+    {
+        "value": "KID_TAB'STRIP",
+        "label": "KID_TAB"
+    },
+    {
+        "value": "SR_TAB'STRIP",
+        "label": "SR_TAB"
+    },
+    {
+        "value": "OZ_TAB'STRIP",
+        "label": "OZ_TAB"
+    },
+    {
+        "value": "FORTE_TAB'STRIP",
+        "label": "FORTE_TAB"
+    },
+    {
+        "value": "DM_TAB'STRIP",
+        "label": "DM_TAB"
+    },
+    {
+        "value": "AM_TAB'STRIP",
+        "label": "AM_TAB"
+    },
+    {
+        "value": "DSR_CAP'STRIP",
+        "label": "DSR_CAP"
+    },
+    {
+        "value": "CD_CAP'STRIP",
+        "label": "CD_CAP"
+    },
+    {
+        "value": "LB_CAP'STRIP",
+        "label": "LB_CAP"
+    },
+    {
+        "value": "DSR_TAB'STRIP",
+        "label": "DSR_TAB"
+    },
+    {
+        "value": "CHEW_TAB'STRIP",
+        "label": "CHEW_TAB"
+    },
+    {
+        "value": "ORAL_TAB'STRIP",
+        "label": "ORAL_TAB"
+    },
+    {
+        "value": "TOOTH_PASTE'PACK",
+        "label": "TOOTH_PASTE"
+    },
+    {
+        "value": "XL_TAB'STRIP",
+        "label": "XL_TAB"
+    },
+    {
+        "value": "SR_CAP'STRIP",
+        "label": "SR_CAP"
+    },
+    {
+        "value": "DZ_TAB'STRIP",
+        "label": "DZ_TAB"
+    },
+    {
+        "value": "XL_CAP'STRIP",
+        "label": "XL_CAP"
+    },
+    {
+        "value": "XT_TAB'STRIP",
+        "label": "XT_TAB"
+    },
+    {
+        "value": "LB_TAB'STRIP",
+        "label": "LB_TAB"
+    },
+    {
+        "value": "OD_CAP'STRIP",
+        "label": "OD_CAP"
+    },
+    {
+        "value": "OD_TAB'STRIP",
+        "label": "OD_TAB"
+    },
+    {
+        "value": "XT_CAP'STRIP",
+        "label": "XT_CAP"
+    },
+    {
+        "value": "CD_TAB'STRIP",
+        "label": "CD_TAB"
+    },
+    {
+        "value": "DS_TAB'STRIP",
+        "label": "DS_TAB"
+    },
+    {
+        "value": "LOT'PACK",
+        "label": "LOT"
+    },
+    {
+        "value": "CL_TAB'STRIP",
+        "label": "CL_TAB"
+    },
+    {
+        "value": "DM_CAP'STRIP",
+        "label": "DM_CAP"
+    },
+    {
+        "value": "CL_PESSARY'PACK",
+        "label": "CL_PESSARY"
+    },
+    {
+        "value": "LB_PESSARY'PACK",
+        "label": "LB_PESSARY"
+    },
+    {
+        "value": "SOLUTION'PACK",
+        "label": "SOLUTION"
+    },
+    {
+        "value": "KID_CAP'STRIP",
+        "label": "KID_CAP"
+    },
+    {
+        "value": "DS_CAP'STRIP",
+        "label": "DS_CAP"
+    },
+    {
+        "value": "FORTE_PESSARY'PACK",
+        "label": "FORTE_PESSARY"
+    },
+    {
+        "value": "CC_CAP'STRIP",
+        "label": "CC_CAP"
+    },
+    {
+        "value": "COUGH_TAB'STRIP",
+        "label": "COUGH_TAB"
+    },
+    {
+        "value": "CC_TAB'STRIP",
+        "label": "CC_TAB"
+    },
+    {
+        "value": "AM_CAP'STRIP",
+        "label": "AM_CAP"
+    },
+    {
+        "value": "DRY_TAB'STRIP",
+        "label": "DRY_TAB"
+    },
+    {
+        "value": "OZ_CAP'STRIP",
+        "label": "OZ_CAP"
+    },
+    {
+        "value": "SUSP'PACK",
+        "label": "SUSP"
+    },
+    {
+        "value": "DROPS'PACK",
+        "label": "DROPS"
+    },
+    {
+        "value": "ORAL_DROPS'PACK",
+        "label": "ORAL_DROPS"
+    },
+    {
+        "value": "FORTE_ROTACAPS'PACK",
+        "label": "FORTE_ROTACAPS"
+    },
+    {
+        "value": "INH'PACK",
+        "label": "INH"
+    },
+    {
+        "value": "LOT'PACK",
+        "label": "LOT"
+    },
+    {
+        "value": "COUGH_LOZENGES'PACK",
+        "label": "COUGH_LOZENGES"
+    },
+    {
+        "value": "SR_POWDER'PACK",
+        "label": "SR_POWDER"
+    },
+    {
+        "value": "INH_SOL'PACK",
+        "label": "INH_SOL"
+    },
+    {
+        "value": "MDI'PACK",
+        "label": "MDI"
+    },
+    {
+        "value": "BRUSH'PACK",
+        "label": "BRUSH"
+    },
+    {
+        "value": "NEEDLE'PACK",
+        "label": "NEEDLE"
+    },
+    {
+        "value": "SYRINGE'PACK",
+        "label": "SYRINGE"
+    },
+    {
+        "value": "SURGICAL'PACK",
+        "label": "SURGICAL"
+    },
+    {
+        "value": "OINT'PACK",
+        "label": "OINT"
+    },
+    {
+        "value": "SPRAY'PACK",
+        "label": "SPRAY"
+    },
+    {
+        "value": "SOAP'PACK",
+        "label": "SOAP"
+    },
+    {
+        "value": "CATCUT'PACK",
+        "label": "CATCUT"
+    },
+    {
+        "value": "DT_TAB'STRIP",
+        "label": "DT_TAB"
+    },
+    {
+        "value": "CAPTAB'STRIP",
+        "label": "CAPTAB"
+    },
+    {
+        "value": "DISPERTAB'STRIP",
+        "label": "DISPERTAB"
+    },
+    {
+        "value": "FILM_COATED_TAB'STRIP",
+        "label": "FILM_COATED_TAB"
+    },
+    {
+        "value": "CR_TAB'STRIP",
+        "label": "CR_TAB"
+    },
+    {
+        "value": "ORAL_GEL'PACK",
+        "label": "ORAL_GEL"
+    },
+    {
+        "value": "ORAL_SUSP'PACK",
+        "label": "ORAL_SUSP"
+    },
+    {
+        "value": "PASTE'PACK",
+        "label": "PASTE"
+    },
+    {
+        "value": "DRY_SYR'PACK",
+        "label": "DRY_SYR"
+    },
+    {
+        "value": "POWDER_INJ'PACK",
+        "label": "POWDER_INJ"
+    },
+    {
+        "value": "CATHETRE'PACK",
+        "label": "CATHETRE"
+    },
+    {
+        "value": "SURGICARE'PACK",
+        "label": "SURGICARE"
+    },
+    {
+        "value": "ORAL_SOLUTION'PACK",
+        "label": "ORAL_SOLUTION"
+    },
+    {
+        "value": "AMP'PACK",
+        "label": "AMP"
+    },
+    {
+        "value": "BOX'PACK",
+        "label": "BOX"
+    },
+    {
+        "value": "GEL'PACK",
+        "label": "GEL"
+    },
+    {
+        "value": "STRIP'BOX",
+        "label": "STRIP"
+    }
+]

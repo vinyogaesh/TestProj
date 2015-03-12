@@ -1,0 +1,727 @@
+.container {
+	border: 0px solid;
+	/*min-height: 600px;*/
+}
+
+#header {
+	height: 53px;
+}
+
+#header .span2 {
+	width: auto;
+}
+
+#header .span2 img {
+	margin-left: 0px;
+	/*height: 53px;*/
+}
+
+#header h4 { /*  padding-top: 8px;*/
+	color: #9c4a09;
+	font-size: 14pt;
+	margin-top: 6px;
+}
+
+#header .span1 {
+	width: 13px;
+}
+
+#header .span1 img {
+	margin-top: 5px /* 20px*/;
+}
+
+#header .span8 {
+	margin-left: 0px;
+}
+
+#header .span3 img {
+	margin-top: 2px;
+}
+
+#logout .span2 {
+	width: auto; /*85px;*/
+	margin-left: 20px;
+}
+
+#logout a {
+	color: #1f477d;
+	font-size: 11pt;
+}
+
+#logout label {
+	font-size: 11pt;
+	color: #7f7f7f;
+}
+
+#logout .span1 img {
+	margin-top: 3px;
+}
+
+.span12 {
+	background-color: #f7ad71;
+}
+
+#row_header {
+	border-bottom: 1px solid #ea700d;
+	height: 33px;
+}
+
+.nav-pills>li>a { /* border: 1px solid #F8C49C;*/
+	background-color: #f9c499; /*#F8C49C;*/
+	border-radius: 7px 7px 0px 0px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	padding-left: 30px;
+	padding-right: 25px;
+}
+
+.nav-pills>.active>a,.nav-pills>.active>a:hover {
+	/*background-color: #E8710C;*/
+	color: #FFFFFF;
+}
+
+.nav-tabs .open .dropdown-toggle,.nav-pills .open .dropdown-toggle,.nav>li.dropdown.open.active>a:hover
+	{
+	background-color: #ea700d; /* #E8710C;*/
+	border-color: #999999;
+	color: #FFFFFF;
+}
+
+.nav .dropdown-toggle .caret {
+	border-top-color: white;
+}
+
+.nav-pills a {
+	color: #ea700d; /* #E8710C;*/
+	text-decoration: none;
+}
+
+.dropdown-menu {
+	border: 2px solid #E8710C;
+	margin: -2px 0 0;
+}
+
+.dropdown-menu a {
+	color: #DBA590;
+}
+
+.nav-pills .dropdown-menu {
+	border-radius: 1px 1px 1px 1px;
+}
+
+.nav-pills .dropdown-menu {
+	width: 190px;
+	/*min-height: 80px;*/
+}
+
+.dropdown-menu li>a {
+	font-size: 10pt; /* 13px;*/
+	color: #262626;
+}
+
+.nav-pills>li {
+	float: left;
+	margin-right: 4px;
+	height: 32px;
+	font-size: 10pt;
+}
+
+.dropdown-menu .active>a,.dropdown-menu .active>a:hover {
+	background-color: #C6D8F0;
+	background-image: linear-gradient(to bottom, #C6D8F0, #C6D8F0);
+	background-repeat: repeat-x;
+	color: #262626;
+	font-size: 10pt;
+	outline: 0 none;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*--Content--*/
+.content {
+	background-color: #F9EADC;
+	/*min-height: 960px;*/
+}
+
+.tab_salesorder {
+	background-color: #C0D3CF;
+	/* margin-top:-10px;
+	 padding-top: 12px;*/
+	height: 42px;
+	margin-top: -15px;
+	margin-bottom: 20px;
+}
+/* 
+   Issue Id : 235
+   Comment : Replace the border-radius: 5px 5px 0px 0px; with existing code
+ */
+.nav-tabs>li {
+	margin-bottom: 15px;
+	margin-left: 10px;
+	border-bottom: 0px;
+	border-radius: 5px 5px 0px 0px;
+	background-color: #e2e6dd;
+}
+
+/* 
+   Issue Id : 235
+   Comment : Remove the font-weight: 600; with existing code
+ */
+
+.nav-tabs>li>a {
+	color: #262626;
+	/*font-weight: 600;*/
+	font-size: 10pt;
+}
+
+/* 
+   Issue Id : 240
+   Comment : Replace the existing code with following code
+ */
+
+#section {
+	background-color: white;
+	margin-left: 5px;
+/* 	margin-bottom:20px; */
+	margin-top:10px;
+	margin-right:20px;	
+	width: 1106px;
+	/*margin-left: 12px;
+	margin-top: 10px; 20px;*/
+	/*min-height: 700px;*/
+}
+
+#section h4 {
+	color: #ea700d;
+	font-size: 16pt;
+	margin-bottom: 20px;
+}
+
+.nav-tabs {
+	border-bottom: 0px;
+	padding-top: 10px;
+}
+
+.nav-tabs>li>a,.nav-pills>li>a {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+/* 
+   Issue Id : 235
+   Comment : Replace the border-radius: 5px 5px 0px 0px; with existing code 
+		also Add the code font-weight: bold; 
+ */
+
+.nav-tabs>.active>a,.nav-tabs>.active>a:hover {
+	background-color: #FFFFFF;
+	border-radius: 5px 5px 0px 0px;
+	border-style: none;
+	border-width: 0px;
+	color: #555555;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+/* 
+   Issue Id : 235
+   Comment : Replace the border-radius: 5px 5px 0px 0px; with existing code
+ */
+
+.nav-tabs>li>a:hover {
+	border-radius: 5px 5px 0px 0px;
+	background-color: #FFFFFF;
+}
+
+#form_inline {
+	background-color: #FCFBFA;
+	border: 1px solid #DDDDDD;
+	margin-top: -15px;
+	width:1076px;
+}
+.table {
+	margin-top: 0px;
+}
+
+.table-bordered thead {
+	background-color: #e5e2df;
+}
+
+.table th {
+	font-size: 11pt;
+	font-weight: bold;
+/* 	color: #262626; */
+	color:#a65400;
+}
+
+.table td {
+	font-size: 1em;
+	color: #262626;
+}
+
+/*---Footer--*/
+.footer .span12 {
+	margin-left: 0px;
+}
+
+.footer .span12 p {
+	text-align: center;
+	color: grey;
+	margin-top: 10px;
+}
+
+/*Detail pgae*/
+.content_header {
+	background: none repeat scroll 0 0 #D5DFEB;
+	height: 70px;
+}
+
+.span {
+	padding-top: 10px;
+}
+
+h4 {
+	color: #E76D08;
+}
+
+input.span1 {
+	margin-bottom: 0px;
+}
+
+/* Issue Id: 238, Comment : Replace and Add this code */
+h4.span {
+	margin-left: 15px;
+	float: right;
+	text-align: right;
+}
+
+h4.amtmargin {
+	margin-right: 90px;
+}
+/* code end here */
+
+
+.table {
+	margin-bottom: 0px;
+}
+
+/*
+Issue Id: 237,
+Comment: Replace this code with existing code
+*/
+
+#remarks_form {
+	background-color: #FCFBFA;
+	border: 1px solid #DDDDDD;
+    margin-left: 0px;
+    padding: 10px;
+    width: 1065px;
+}
+
+.input-append,.input-prepend {
+	float: left;
+	font-size: 0;
+	margin-bottom: 5px;
+	white-space: nowrap;
+}
+
+/* retailer detail */
+.form-horizontal .control-group {
+	margin-bottom: 0;
+}
+
+.form-horizontal .control-label {
+	float: left;
+	padding-top: 5px;
+	text-align: right;
+	width: 136px;
+}
+
+.form-horizontal .controls label {
+	text-align: start;
+}
+
+.form-horizontal .controls {
+	margin-left: 146px;
+}
+
+/*resonsive */
+.container {
+	width: 1130px;
+}
+
+.span12 {
+	width: 1170px;
+}
+
+.span11 {
+/* 	width: 1106px; */
+
+}
+
+.span10 {
+	width: /*1060px;970px;*/ 1085px;
+	margin-bottom: 20px;
+}
+
+.span9 {
+	width: 870px;
+}
+
+.span8 {
+	width: 770px;
+}
+
+.span7 {
+	width: 670px;
+}
+
+.span6 {
+	width: 570px;
+}
+
+.span5 {
+	width: 470px;
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+
+.span4 {
+	width: 370px;
+}
+
+.span3 {
+	width: 270px;
+}
+
+.span2 {
+	width: 170px;
+}
+
+.span1 {
+	width: 70px;
+}
+
+/* Order detail banner */
+#form_inline  .span3 {
+	margin-left: 0px;
+}
+
+#form_inline h6 {
+	margin-bottom: 0px;
+}
+
+#form_inline form {
+	margin-bottom: 5px;
+}
+
+#form_inline h6 { /*color: #A28187;*/
+	color: #9DA0A4;
+	font-size: 9pt;
+	padding-top: 5px;
+	font-weight: normal;
+}
+
+#form_inline .span {
+	padding-top: 0px;
+}
+
+#form_inline  .span h6 {
+	color: #434343;
+	font-size: 9pt;
+}
+
+small {
+	color: #9DA0A4;
+}
+
+/* Modals */
+.modal-header {
+	border-bottom: 2px solid linear-gradient(white, #e0e0e0);;
+	padding-left: 10px;
+	padding-bottom: 0px;
+	background: linear-gradient(white, #e0e0e0);
+}
+
+/* Search box */
+#form_search {	
+	background-color: #FCFBFA;
+	border: 1px solid #DDDDDD;
+	/*  min-height: 80px;*/
+	padding-top: 6px;
+	padding-bottom: 10px;
+	width:1104px;
+}
+
+#form_search .offset1 {
+	margin-left: 100px;
+}
+
+#form_search .span {
+	margin-left: 0px;
+	margin-right: 30px;
+}
+
+#form_search .input-medium {
+	width: 170px;
+}
+
+#form_search .span3 {
+	width: 228px;
+}
+/* Tabs */
+.content .nav {
+	list-style: none outside none;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+
+.tabhead  h4 {
+	background: #D6DFEF;;
+}
+
+.tab-content {
+	overflow: visible;
+}
+
+table .crud {
+	float: right;
+}
+
+#crumps {
+margin-bottom: 20px;
+}
+
+#crumps a {
+	color: #7092be;
+	font-size: 10pt;
+}
+
+.tab-pane .span3 b {
+	font-size: 10pt;
+	color: #262626;
+}
+
+#create_order .offset2 label {
+	font-size: 10pt;
+	color: #454545;
+}
+
+strong {
+	color: #ea700d;
+	font-size: 20px;
+}
+
+#breadcrumps {
+}
+
+#order_tab {
+	background-color: #c5d0c3;
+}
+
+#order_tab h4 {
+	color: #FFFFFF;
+	font-size: 12pt;
+	font-weight: normal;
+	margin-bottom: 0px;
+}
+
+/*my css*/
+h5 {
+	font-size: 14px;
+	color: #000000;	
+}
+
+#text_align {
+	text-align: center;
+}
+
+.modal-header h5 {
+	color: #262626;
+}
+
+/* .modal-body h3 { */
+/* 	color: red; */
+/* 	font-size: 18px; */
+/* } */
+
+.form-inline h4 a {
+	font-size: 9pt;
+	color: #7092be;
+	font-weight: normal;
+}
+
+.form-inline h6 {
+	font-size: 10pt;
+	color: #262626;
+}
+
+.form-inline h6 a {
+	font-size: 9pt;
+	color: #7092be;
+}
+
+.form-inline h6 span {
+	color: #9DA0A4;
+}
+
+.no-space {
+	margin-left: 8px;
+}
+
+.no-space .span2 h6 {
+	margin-top: 0px;
+}
+
+.table-bordered thead th {
+	font-size: 10pt;
+	font-weight: bold;
+	color: #a55402;
+}
+
+#remarks textarea {
+	height: 35px;
+}
+
+#order_select {
+	color: #9DA0A4;
+	font-size: 9pt;
+}
+
+#logout .span1 {
+	width: 25px;
+}
+
+#border {
+	border: 1px solid #DDDDDD;
+	height: 120px;
+	margin-top: 10px;
+}
+
+#order_btn {
+	margin-top: 33px;
+	margin-left: 10px;
+}
+
+#sales_order {
+	background-color: #C5D0C3
+}
+
+#sales_order img {
+	margin-top: -17px;
+}
+
+#align_right {
+	text-align: right;
+}
+
+#order_spaceb {
+	margin-bottom: 10px;
+}
+
+#example_wrapper .span6 {
+	width: /*646px;*/ 683px;
+}
+
+#example_wrapper {
+}
+/*content*/
+#span {
+	margin-top: 10px;
+	width: 1086px;
+	margin-right: 10px;
+}
+
+.table-bordered {
+}
+
+.width {
+	width: 1080px;
+}
+
+.span10 {
+	width: /*1060px;970px;*/ 1081px;
+	margin-bottom: 5px;
+}
+
+.tab_salesorder {
+	background-color: #c5d0c3;
+	height: 50px;
+	margin-top: 1px;
+	margin-bottom: 0px;
+}
+
+.input-small {
+    width: 70px;
+}
+
+span#productPromoText, span#productPromoRowText, span#previousFreeQty {
+      position: absolute;
+      display: block;
+      width: 200px;
+      height: 20px;
+      line-height: 20px;
+      padding: 5px;
+      font-size: 14px;
+      text-align: center;
+      color: rgb(102, 102, 102);
+      background: rgb(255, 255, 170);
+      border: 2px solid rgb(255, 173, 51);
+      border-radius: 5px;
+      text-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 1px;
+      box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 0px;	     
+}
+
+span#productPromoText:after, span#productPromoRowText:after, span#previousFreeQty:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-width: 10px;
+      border-style: solid;
+      border-color: transparent transparent #FFFFAA transparent;
+      top: -18px;
+      left: 50px;
+}
+
+span#productPromoText {
+	margin-top:30px;
+}
+
+span#productPromoRowText, span#previousFreeQty {
+	margin-top:5px;
+}
+
+span#previousFreeQty {
+	height: auto;
+	width: 120px;
+	word-wrap: break-word;
+}
+
+.input-small1 {
+   width: 50px;
+}
+
+
+.table-alternate tr:nth-child(2n+1) {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #FFFFFF;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+}
+
+.table-alternate tr:nth-child(2n) {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #FFF3E7;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+}	
